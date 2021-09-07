@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{91AC2809-232F-4A85-AF61-55CA657C406E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <RootNamespace>Hamza_Plantville</RootNamespace>
     <AssemblyName>Hamza_Plantville</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
