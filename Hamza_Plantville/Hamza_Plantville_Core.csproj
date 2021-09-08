@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Hamza_Plantville</RootNamespace>
+    <AssemblyName>Hamza_Plantville</AssemblyName>
+    <DefineConstants>NETCORE</DefineConstants>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="*.png"/>
+  </ItemGroup>
+  <!-- <ItemGroup>
+    <Resource Include="gardening.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="market.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="vegetables.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="conversation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="buying.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="notes.png" />
+  </ItemGroup> -->
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+</Project>
