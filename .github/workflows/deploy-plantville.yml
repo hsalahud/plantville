@@ -6,7 +6,7 @@ on:
       - "plantville/v*"
 
 env:
-  PROJECT_PATH: Hamza_Plantville/ClassCommands.csproj
+  PROJECT_PATH: Hamza_Plantville/Hamza_Plantville_Core.csproj
 
 jobs:
   deploy:
