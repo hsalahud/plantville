@@ -8,6 +8,7 @@
     <AssemblyName>Hamza_Plantville</AssemblyName>
     <DefineConstants>NETCORE</DefineConstants>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
   </PropertyGroup>
   <ItemGroup>
     <Resource Include="*.png"/>
