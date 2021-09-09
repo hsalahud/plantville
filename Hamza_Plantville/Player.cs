@@ -28,9 +28,9 @@ namespace Hamza_Plantville
         /// </summary>
         public static void initializePlayer()
         {
-            if (File.Exists($@"..\..\{Player.userName}.txt"))
+            if (File.Exists($@"{Player.userName}.txt"))
             {
-                SaveState.LoadSavedGame($@"..\..\{Player.userName}.txt");
+                SaveState.LoadSavedGame($@"{Player.userName}.txt");
             }
             else
             {

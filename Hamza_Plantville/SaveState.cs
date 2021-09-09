@@ -21,7 +21,7 @@ namespace Hamza_Plantville
 
             string serializedJson = JsonConvert.SerializeObject(dict);
 
-            using (StreamWriter sw = new StreamWriter($@"../../{Player.userName}.txt"))
+            using (StreamWriter sw = new StreamWriter($@"{Player.userName}.txt"))
             {
                 sw.WriteLine(serializedJson);
             }
